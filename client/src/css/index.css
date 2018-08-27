@@ -1,0 +1,43 @@
+.fade-enter{
+opacity: 0.1;
+}
+
+.fade-enter-active{
+ opacity: 1;
+ transition: opacity 500ms ease-in;
+}
+
+.fade-exit{
+  opacity: 1;
+}
+
+.fade-enter-active{
+ opacity: 0.1;
+  transition: opacity 500ms ease-in;
+}
+
+.modal-content{
+  margin-top: 150px !important;
+}
+
+.selectTodos{
+  float: right;
+}
+.selectTodos .select {
+  border: 0 !important;
+  outline: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color:#dc3545;
+  width: 140px;
+  text-indent: 40px;
+  text-overflow: "";
+  font-weight: bold;
+  color: #000000;
+  padding: 5px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+.option {
+  background-color: white;
+}
